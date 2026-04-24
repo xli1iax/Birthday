@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>С 20-летием, Алина! 🎂✨</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- 🎂 ПОЛНОЭКРАННЫЙ ТАЙМЕР (ГЛАВНЫЙ ЭКРАН) -->
+<section class="hero-fullscreen" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="balloons">
+            <i class="fas fa-balloon"></i>
+            <i class="fas fa-balloon"></i>
+            <i class="fas fa-balloon"></i>
+            <i class="fas fa-balloon"></i>
+        </div>
+        <h1 class="glow-text">
+            <span class="small-text">Скоро твой день!</span><br>
+            Алина <span class="accent-name">💖</span>
+        </h1>
+        <div class="age-badge">20 ЛЕТ! 🎂</div>
+        <div class="timer-container" id="timerContainer">
+            <div id="timer">
+                <div class="timer-block">
+                    <span id="days">00</span>
+                    <span class="timer-label">дней</span>
+                </div>
+                <div class="timer-block">
+                    <span id="hours">00</span>
+                    <span class="timer-label">часов</span>
+                </div>
+                <div class="timer-block">
+                    <span id="minutes">00</span>
+                    <span class="timer-label">минут</span>
+                </div>
+                <div class="timer-block">
+                    <span id="seconds">00</span>
+                    <span class="timer-label">секунд</span>
+                </div>
+            </div>
+        </div>
+        <p class="hero-subtitle">до твоего совершеннолетия 2.0 ✨</p>
+        <div class="scroll-hint">
+            <i class="fas fa-chevron-down"></i>
+            <span>листай вниз, чтобы увидеть историю</span>
+        </div>
+    </div>
+</section>
+
+<!-- 📖 История жизни -->
+<section class="story" id="story">
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-book-open"></i> История жизни</h2>
+
+        <!-- Детство -->
+        <div class="timeline-block">
+            <div class="block-header">
+                <div class="block-icon"><i class="fas fa-baby-carriage"></i></div>
+                <h3>Детство</h3>
+            </div>
+            <p class="block-desc">🌼 Родилась в Николаеве — и сразу стало ясно: растёт маленькая звёздочка с характером! Первые шаги, первый смех и бесконечное любопытство к миру.</p>
+            <div class="gallery-horizontal">
+                <div class="gallery-track">
+                    <img src="images/child1.png" alt="Детство 1" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+1'">
+                    <img src="images/child2.png" alt="Детство 2" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+2'">
+                    <img src="images/child3.jpg" alt="Детство 3" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+3'">
+                    <img src="images/child4.jpg" alt="Детство 4" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+4'">
+                </div>
+            </div>
+        </div>
+
+        <!-- Школа -->
+        <div class="timeline-block">
+            <div class="block-header">
+                <div class="block-icon"><i class="fas fa-school"></i></div>
+                <h3>Школьные годы</h3>
+            </div>
+            <p class="block-desc"> Первые друзья, весёлые перемены и немного творческого хаоса! Именно тогда начались настоящие приключения и самые тёплые воспоминания.</p>
+            <div class="gallery-horizontal">
+                <div class="gallery-track">
+                    <img src="images/school1.jpg" alt="Школа 1" onerror="this.src='https://placehold.co/400x300/e8d0f0/a56cc1?text=Школа+1'">
+                    <img src="images/school2.jpg" alt="Школа 2" onerror="this.src='https://placehold.co/400x300/e8d0f0/a56cc1?text=Школа+2'">
+                </div>
+            </div>
+        </div>
+
+        <!-- Словакия -->
+        <div class="timeline-block">
+            <div class="block-header">
+                <div class="block-icon"><i class="fas fa-plane-departure"></i></div>
+                <h3>Словакия</h3>
+            </div>
+            <p class="block-desc">🇸🇰 Новый этап, новые горизонты! Смелость идти за мечтой привели её в Словакию. Здесь началась настоящая история взросления, новых побед и открытий.</p>
+            <div class="gallery-horizontal">
+                <div class="gallery-track">
+                    <img src="images/slovakia1.jpg" alt="Словакия 1" onerror="this.src='https://placehold.co/400x300/f0d8e8/b87b9f?text=Словакия+1'">
+                    <img src="images/slovakia2.jpg" alt="Словакия 2" onerror="this.src='https://placehold.co/400x300/f0d8e8/b87b9f?text=Словакия+2'">
+                </div>
+            </div>
+        </div>
+
+        <!-- Сегодня -->
+        <div class="timeline-block">
+            <div class="block-header">
+                <div class="block-icon"><i class="fas fa-heart"></i></div>
+                <h3>Сегодня — 20 лет! 🎉</h3>
+            </div>
+            <p class="block-desc">🌟 И вот сегодня тебе 20! Ты — человек, которым можно гордиться. Сильная, красивая, вдохновляющая. И это только начало твоего большого пути. С днём рождения!</p>
+            <div class="gallery-horizontal">
+                <div class="gallery-track">
+                    <img src="images/now1.jpg" alt="Сейчас 1" onerror="this.src='https://placehold.co/400x300/f7d4e0/c96a9b?text=Сегодня+1'">
+                    <img src="images/now2.jpg" alt="Сейчас 2" onerror="this.src='https://placehold.co/400x300/f7d4e0/c96a9b?text=Сегодня+2'">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 💬 Поздравления от друзей -->
+<section class="messages-section" id="messages">
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-envelope-open-heart"></i> Тёплые слова от друзей</h2>
+        <div class="messages-grid" id="messagesGrid">
+            <div class="loading-messages"><i class="fas fa-spinner fa-pulse"></i> Загрузка поздравлений...</div>
+        </div>
+    </div>
+</section>
+
+<!-- 🎬 Видео-поздравление (появляется после таймера) -->
+<div id="videoModal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="close-video">&times;</span>
+        <h3><i class="fas fa-gift"></i> СЮРПРИЗ! Видео-поздравление 🎥</h3>
+        <video id="birthdayVideo" controls>
+            <source src="videos/0421.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        <p class="video-note">С любовью от всех, кто тебя обожает ❤️</p>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>Сделано с <i class="fas fa-heart"></i> специально для Алины | 20 лет — это только начало ✨</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
