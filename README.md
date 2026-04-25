@@ -1,4 +1,4 @@
-````md
+
 # Birthday Website 🎂
 
 An interactive birthday greeting webpage created as a small festive project with animations and styled design.
