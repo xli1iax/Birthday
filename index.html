@@ -74,6 +74,8 @@
             <p class="block-desc">Первые друзья, весёлые перемены и немного творческого хаоса! Именно тогда начались настоящие приключения и самые тёплые воспоминания.</p>
             <div class="gallery-horizontal">
                 <div class="gallery-track">
+
+
                     <img src="images/child1.png" alt="Детство 1" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+1'">
                     <img src="images/child2.png" alt="Детство 2" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+2'">
                     <img src="images/child3.jpg" alt="Детство 3" onerror="this.src='https://placehold.co/400x300/ffe0f0/c084b2?text=Детство+3'">
@@ -204,10 +206,17 @@
     <div class="video-modal-content">
         <span class="close-video">&times;</span>
         <h3><i class="fas fa-gift"></i> СЮРПРИЗ! Видео-поздравление 🎥</h3>
-        <video id="birthdayVideo" controls>
-            <source src="videos/0421.mp4" type="video/mp4">
-            Ваш браузер не поддерживает видео.
-        </video>
+        <div class="video-wrapper">
+            <iframe
+                    src="https://www.youtube.com/embed/6pPMu7LOzMw"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <p class="video-note">Ссылочка на видео, если вдруг не работает:</p>
+        <a class="video-link" href="https://youtu.be/6pPMu7LOzMw" target="_blank" rel="noopener noreferrer">
+            Открыть видео на YouTube
+        </a>
         <p class="video-note">С любовью от всех, кто тебя обожает ❤️</p>
     </div>
 </div>
